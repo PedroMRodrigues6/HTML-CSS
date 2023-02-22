@@ -1,0 +1,30 @@
+Parâmetros: 
+
+color: muda a cor da letra
+background-color: muda a cor do fundo
+font-family: muda o tipo de letra
+text-align:justify: alinha o texto no final de cada linha
+font-size: aumenta o tamanho da fonte
+text-decoration:underline - texto sublinhado
+text-align:right - texto fica a direita
+text-align:left - texto fica a esquerda
+background-image: linear-gradient(to right, blue, white) - degradê
+background-attachment: fixed; - para o fundo ficar fixo
+margin: auto; - centralizar o conteúdo
+border-radius: 10px; - deixar as bordas arredondadas
+box-shadow: 5px 5px 15px #C2FFCF; - sombrear as bordas
+font-weight: (lighter, normal, bold, bolder) - peso da fonte
+font-style: (italic ou normal) - estilo da fonte
+text-indent: 30px; - paragrafo
+display: inline-block; - deixa tudo na mesma linha
+height: 200x; - altura
+width:200px; - largura
+div:hover - tudo nesse parametro sera alterado quando passar o mouse em cima do elemento na página
+display: none; - nao vai aparecer na tela
+display: block; - mostrar na tela
+text-decoration: none; - tira o sublinhado
+a:active - altera algo quando pressionado
+a:visited - muda quando o site ja ter sido visitado
+content - conteúdo
+a::after - aparece o conteudo depois do link
+a::before - aparece o conteudo antes do link

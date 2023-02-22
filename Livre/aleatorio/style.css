@@ -1,0 +1,37 @@
+p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.tabela{
+    text-align: center;
+
+}
+
+input{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+ header{
+    background-color: gainsboro;
+    text-align: center;
+    width: 100%;
+ }
+
+main{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 150px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
+ button{
+    margin-top: 16px;
+    border-radius: 4px;
+
+ }

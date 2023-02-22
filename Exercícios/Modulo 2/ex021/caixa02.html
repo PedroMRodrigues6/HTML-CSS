@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        header{
+            background-color: white;
+            color: rgb(237, 5, 44);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            font-style: italic;
+        }
+        nav{
+            background-color: rgb(54, 53, 53);
+            padding: 3px;
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            box-shadow: 7px 6px 11px lightblue;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: rgb(164, 114, 114);
+            padding: 10px;
+            
+        }
+        article > h2{
+            text-align: center;
+        }
+        article > p{
+            text-align: justify;
+        }
+        footer{
+            background-color:black ;
+            color: white;
+            font-family:serif;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #noticias{
+            color: lightgreen;
+            text-decoration: underline;
+
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://www.twitch.tv" target="_blank">Twitch</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+             <article>
+                <h2>Noticias sobre o mundo do TM</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A nam inventore, ipsa adipisci qui dolorem, ex quidem possimus eligendi ab libero tempora nostrum molestias, repellat mollitia voluptate rem quas ipsam.</p>
+             </article>
+             <article>
+                <aside>
+                    <p>Escrito por Pedro Rodrigues</p>
+                </aside>
+             </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

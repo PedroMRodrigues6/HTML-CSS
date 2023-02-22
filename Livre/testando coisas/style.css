@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    background-color: purple;
+}
+h1{
+    background-color: violet;
+    color: blue;
+    width: 110px;
+}
+
+.futebol{
+    text-align: left;
+    color: palevioletred;
+}
+
+img{
+    margin-right: 20px;
+    border-right: 20px;
+    padding-right: 20px;
+
+}
+
+.messi{
+    background-color: rgb(254, 254, 255);
+    color: rgba(227, 117, 20, 0.91);
+    size: 45px;
+    width: 45px;
+}
+
+.neymar{
+    background-color: white;
+    color: orangered;
+    size: 60px;
+    width: 60px;
+}
+
+.hazard{
+    background-color: white;
+    color: rgb(188, 74, 32);
+    size: 57px;
+    width: 57px;
+}

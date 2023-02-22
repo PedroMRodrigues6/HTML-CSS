@@ -1,0 +1,352 @@
+Plataformas: estudonauta, hostnet, recode. 
+Módulo 1 
+
+Aula 03 - Precisamos fazer um acordo
+Repositorio público disponível: 
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+github.com/gustavoguanabara/HTML-CSS
+
+Atenção: 
+
+- Não é necessário maratonar, e sim praticar. PRATIQUE
+- Sem pressa! 
+- Estabelecer rotinas! 
+
+Aula 04 - Será que este curso é pra mim? 
+Resposta: Sim, esse curso é para mim. 
+
+Aula 05 - Melhores livros para aprender HTML5 E CSS3
+    Referências online: MDN (Potuguês), W3C Standards, 
+WHATWG Living Standard, W3Schools. 
+
+Aula 06 - Como a Internet chega na minha casa?
+
+Aula 07 - Como a internet funciona?
+   Computador - Linguagem binária    
+   1 Byte = 8 bites  
+   1024 Bytes = 1 KiloByte
+   UTF-8?
+   MB = MegaBytes (armazenamento) 
+   Mb = MegaBits (transmissão)
+   iplocation.net 
+   DNS - SISTEMA DE NOME DE DOMÍNIO: identifica o ip do local que você está procurando e te direciona ao site desejado. 
+
+Aula 08 - O que é domínio e hospedagem? 
+   Domínio: nome que identifica seu site, pago anualmente, TLD. 
+   Hospedagem: espaço para armazenar seus arquivos (espaço no servidor para seu site), pago mensalmente, espaço, memória, recursos. 
+   URL: LOCALIZADOR DE RECURSO ÚNICO
+   Exemplo: www.github.com/gustavoguanabara
+   Github.com: Domínio
+   .com é um TLD
+   www: Sub-domínio
+   /gustavoguanabara: caminho 
+    
+GTLD: genéricos - .net, .io
+CCTLD: país - .br
+https: Protocolo
+
+Aula 09 - A diferença entre HTML, CSS e JavaScript
+   Desenvolvedor HTML e CSS. 
+   HTML: Linguagem para marcação de hipertexto
+   Focado em conteúdo, que são eles, textos, imagens, vídeos, tabelas. 
+    Tags <> (<h1>: abertura de tag 
+             </h1>: fechamento de tag )
+   CSS: Folhas de estilo em cascata
+   Focado em design, que são eles, cores, tamanhos, sombras, posicionamento. 
+   JavaScript: focado nas interações do site, que são eles, menus, animações, popups, validações. 
+  
+Aula 10 - Front-end, Back-end e Full Stack
+	Front-end: desenvolvedor para o lado do cliente - client-side
+	Back-end: desenvolvedor para o lado do servidor - server-side
+	Full-Stack: front-end + back-end
+   
+Aula 11 - Instalando todas as ferramentas
+
+Aula 12 - Seu primeiro código HTML 
+	Atalho para código base: ! + enter
+        Pular linha: hr (horizontal roll)
+
+Aula 13 - Parágrafos e Quebras 
+	Quebra de linha: br (breaking roll)
+	<: &lt; (less than) 
+	>: &gt; ( greater than)
+
+Aula 14 - Símbolos e emoji no seu site
+	Comentário: <!-- Conteúdo --!>
+	Símbolos: &reg; (marca registrada)
+		  &copy; (copyright)
+		  &trade; (trademark)
+		  &euro; &pound; &yen; &cent; (moedas)
+		  &Delta;
+		  &uparrow; (seta pra cima)
+		  &downarrow; (seta pra baixo)
+	Emoji: Para inserir emoji: &#x + código 
+		&#x1F60A; 
+	        &#x1F913;
+	Site para procurar emojis: emojipedia.org
+
+Aula 15 - Você tem o direito de usar qualquer imagem no seu site?
+	Existe direitos autorais nas fotos, para fazer a busca de imagens que possam ser utilizadas faça o seguinte passo: entre na aba imagens, ferramentas e utilize a primera ou segunda opção - marcada para reutilização com modificação ou marcada para reutilização.
+	Sites para procurar imagens com permissão: Unsplash, Pexels, GIMP
+
+Aula 16 - Quais são os formatos para imagens WEB?
+	JPEG: alta compactação
+	PNG: possui transparência, melhor qualidade
+
+Aula 17 - O tamanho das imagens importa para um site?
+	
+Aula 18 - A tag img em HTML5
+	src: origem da imagem
+	alt: definição da imagem
+	Atalho: Na hora de colocar a imagem dentro da tag, CTRL + espaço e irá aparecer a lista dos arquivos.
+	Para carregar imagens externas, vai na imagem e copia o endereço da imagem e cola na tag img
+
+Aula 19 - Como mudar o favicon de um site 
+	iconarchive - Biblioteca de icones
+	favicon.cc - Criar um icone
+	favicon.io - Transforma texto, imagem ou emoji em icone
+	Para inserir o icone na programação, na parte da cabeça (head), inserir a tag "link:favicon", em seguida faça o atalho CTRL + espaço para aparecer todos os arquivos na pasta e insira o icone que você deseja para o site.
+
+Aula 20 - Hierarquia de títulos
+	Entendendo as hierarquias
+	Limite: h1 até h6
+	lorem - gerador de parágrafo aleatório
+
+Aula 21 - Semântica na HTML5 é importante
+	Tags obsoletas
+	Site: dev.w3.org
+	Algumas tags que é melhor não usar
+	Tag vermelha quer dizer que não é muito correto, erro de semântica.
+	Tag u: tudo fica sublinhado dentro dessa dela (não semântica)
+	Tag address: serve para colocar endereço 
+
+Aula 22 - Negrito e Itálico do jeito certo(ex006)		
+	Tag b - Negrito (não semântica)
+	tag strong - Negrito (possui semântica)
+	Tag i - Itálico (não semântica)
+	Tag em - Itálico (possui semântica)
+	Atalho para colocar a tag entre algum texto: CTRL + SHIFT + P + enter + nome da tag que vai utilizar
+
+Aula 23 - Formações adicionais em HTML(ex007)
+	Tag MARK - Marca-Texto
+	Na parte da cabeça (head), abrir a tag style e colocar a opção background-color, você pode mudar a cor de todas as tags MARK que existem.
+	Tag small - deixa a letra menor
+	Tag big - deixa a letra maior (tag obsoleta)
+	Tag del - Texto excluído/traçado 
+	Tag ins - Texto inserido/sublinhado
+	Tag sup - Texto sobrescrito (numeros ao quadrado)
+	Tag sub - Texto subscrito (ex: formula da água H20)
+
+Aula 24 - Citações e Códigos(ex008)
+	Tag code - deixa todos os caracteres com o mesmo espaçamento e tamanho horizontal (fonte monoespaçada)	
+	Tag q - conteúdo fica entre aspas. Usado para citações
+	Tag blockquote - usada para quebra de linha e deslocamento horizontal para direita
+	Tag abbr - tag para colocar o significado de alguma abreviação que você faça.
+	Tag bdo = "rtl": texto invertido 
+
+Aula 25 - Listas OL e UL(ex009)
+	Tag ol - lista ordenada
+	Tag li - são as linhas dessa lista
+	Tipos de lista ordenadas - A, a, I, i
+	Tag ul - lista não ordenada
+	Tipos de lista não ordenada: disc, circle, square
+	
+Aula 26 - Listas mistas e de definição(ex009)
+	Tag dl - listas de definição
+	Tag dt - termo
+	Tag dd - descrição do termo
+
+Aula 27 - Links e Âncoras em HTML5(ex010)
+	Tag a - hiperlink 
+	target="_blank" - irá abrir o link em outra aba
+	rel="external" - indicar ao navegador que é um link externo, recomendado usar
+
+Aula 28 - Links Internos(ex010) 
+	rel="next" - indica ao navegador qual a proxima página
+	rel="prev" - indica ao navegador qual a pagina anterior
+	rel="nofollow" - está dizendo ao dispositivo de busca que você não da o aval para esse conteúdo
+	<a href="noticias/pag003.html">: acessar uma pagina que esta dentro de uma pasta
+	<a href="../index.html">: voltar a pagina que esta dentro de uma pasta
+
+Aula 29 - Links para download
+	iana.org - site para saber o tipo de documento é o seu para poder fazer o download dele
+	Como baixar um arquivo zip por link
+
+Aula 30 - Desafios Propostos
+	Fazer os desafios antes da proxima aula
+	Desafios feitos, menos o 6 que falta terminar
+
+Aula 31 - Imagens Dinâmicas (ex011)
+	Criando imagens no GIMP
+
+Aula 32 - Imagens que se adaptam sozinhas (ex011)	
+	Tag picture - colocar imagens dentro
+	Tag source:media:type - adaptar as imagens e fazer com que caiba na tela, sem ter que ficar rolando a tela
+	Usar o max-width e tem que ser na ordem de tamanho, começando pela pequena até a grande
+
+Aula 33 - Colacando áudio no seu site
+	Tag audio - para inserir audio na página
+	Parâmetros dessa tag para aparecer o audio: 
+	controls
+	Parâmetro autoplay - audio inicia ao abrir a pagina
+	Parâmetro loop - quando acabar o áudio, vai começar de novo a reprodução 
+
+Aula 34 - Formatos de vídeo para seu site (ex012)
+	Instalação do HandBreak - apilicativo para manipular vídeo, alterar arquivo ou formato
+	
+Aula 35 - Vídeos em hospedagem própria (ex012)
+	Parâmetro poster - imagem selecionada fica na tela do vídeo antes de iniciar
+	Tag source:src bom jeito de colocar video compatível com seu navegador, porém vão consumir muito trafego de dados
+
+Aula 36 - Incorporação de vídeos externos
+	Pegar video no youtube, apertar em compartilhar, escolha a primeira opção <> e copia o código gerado. E no HTML5 você so cola.
+	Plataforma Vimeo - concorrente do youtube
+
+Aula 37 - Desafio: um site com vídeos
+	Desafios Feitos
+
+Aula 38 - Estilos CSS inline
+	Aprendendo a colocar o estilo da página dentro das tags. Não indicado pois polui o código. 
+
+Aula 39 - Estilos CSS internos 
+	Usar a tag style dentro da head e estilizar sua página como quiser
+	Desvantagens: parte do estilo vai ocupar um espaço muito grande, caso você trabalhe com muitas páginas ao mesmo tempo, irá causar muito trabalho editar página por página
+
+Aula 40 - Estilos CSS externos
+	Tag link:css para linkar o html com a sua css
+	Sempre que iniciar uma página externa, colocar o @charset "UTF-8" no começo
+	Técnica mais utilizada e fácil de usar
+
+Módulo 2 
+
+Aula 01 - Psicologia das cores
+	Psicologia das cores
+
+Aula 02 - Representando cores com CSS3 (ex016)
+	Aprendendo formas de inserir cores 
+
+Aula 03 - Harmonia de Cores
+	 Entendendo as harmonias de cores, contraste e similaridade.
+
+Aula 04 - Paleta de Cores
+	color.adobe.com - todos os métodos de cores para ter uma harmonização. 
+	paletton.com - mesmas funções mas com exemplos e visualizações das cores em sites. 
+	coolors.co - outra opção de paletas
+
+Aula 05 - Como capturar cores da tela?
+	Adicionada a extensão colorzilla - ferramenta para capturar a cor de alguma página que você gostou.
+
+Aula 06 - Como criar degradê com CSS? (ex016)
+	Criado uma página com degradê
+
+Aula 07 - Criando um exemplo real (ex016)
+	Mais uma página com alguns parâmetros novos
+
+Aula 08 - Primeiros passos em Tipografia
+	Entendendo a história da tipografia
+
+Aula 09 - Anatomia do tipo
+	Aprendendo um pouco sobre as fontes e suas categorias
+
+Aula 10 - Famílias de fonte com CSS (ex017)
+	Botando em prática 
+
+Aula 11 - Tamanho de fonte e suas medidas (ex017)
+	Entendendo os tamanhos e as medidas utilizadas (em ou px)
+
+Aula 12 - Peso, estilo e shorthand font (ex017)
+	Botando em prática 
+
+Aula 13 - Usando Google Fonts
+	fonts.google.com - site para filtrar fontes
+
+Aula 14 - Usando fontes externas baixadas
+	dafont.com - outra opção para achar fontes 
+	
+Aula 15 - Capturando as fontes usadas em um site
+	fonts ninja - extensão muito util para identificar as fontes de algum site que deseja
+
+Aula 16 - Detectando fontes dentro de imagens
+	whatfontis.com  - detecta fontes em imagens
+	fontsquirrel.com
+	myfonts.com
+
+Aula 17 - Alinhamento de textos com CSS (ex017)
+	Alinhando textos com a tag text-align;
+	text-indent: 30px; - Parágrafo
+
+Aula 18 - Usando o id com CSS (ex019)
+	em HTML é id = em CSS é #
+        em HTML é class = em CSS é .
+
+Aula 19 - As diferenças entre id e class (ex019)
+	em HTML é id = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
+
+Aula 20 - Pseudo-classes em CSS	
+	em HTML é pseudo-classe = em CSS é :
+	div:hover - tudo dentro desse elemento muda quando passa o mouse em cima
+	 div > p - o elemento p é filho do elemento div
+	div:hover > p - vai alterar quando passar o mouse somente em cima do elemento p	
+
+Aula 21 - Pseudo-elementos em CSS
+	em HTML é pseudo-elemento = em CSS é ::
+
+Aula 22 - Modelo de Caixas: primeiros passos
+	Padding - espaço intern da borda
+	Margin - espaço externo da borda
+	Outline - contorno
+	2 tipos de caixa: 
+	- box-level: sempre que for aparecer uma caixa, irá ser colocada na linha de baixo e após a caixa volta o texto normal. (div, p, h1 - h6, video)
+	- inline-level: vai aparecer a caixa ao lado do texto, nao pulando a linha. (span, a, strong, label, select)
+	
+Aula 23 - Modelos de Caixas na prática - pt.1 (ex021) 
+	Aprendendo o padding, border, margin 
+
+Aula 24 - Modelos de Caixas na prática - pt.2 (ex021)
+	Botando em prática
+
+Aula 25 - Grouping Tags m HTML5 (ex021)
+	Mexendo com header, main, footer, article, aside. Tambem aprendendo a incrementar o CSS.
+
+Aula 26 - Sombra nas Caixas (ex021)
+	box-shadow: 1px 1px 1px black;
+	Na ordem: Deslocamento horizontal, deslocamento vertical, espalhamento e sombra. 
+	Sempre ir no inspecionar e testar as combinações para ter a melhor sombra. 
+
+Aula 27 - Caixas com vértices arredondados (ex021)
+	border-radius - arredonda as vertices, testar no inspecionar para achar o melhor arredondamento
+
+Aula 28 - Bordas decoradas (ex021)	
+	Pegar a borda personalizada e inserir com o paramentro border-image-source: url('nome do arquivo'); e depois o parametro border-image-repeat: repeat;
+
+Aula 29 -  DESAFIO do Módulo 2
+
+Aula 30 - Criando um projeto a partir do zero
+
+Aula 31 - Navegando pelo projeto pronto
+
+Aula 32 - Planejando a estrutura do seu site
+	mockflow.com - layout de sites
+
+Aula 33 - Transformando o layout em código
+
+Aula 34 - Organizando o conteúdo do site
+
+Aula 35 - Variáveis em CSS
+	:root - declaração de variáveis nas CSS
+	pra começar a variavel antes precisa --
+	Parametro *{} - tudo que for feito dentro desse parametro vai modificar tudo na página
+
+Aula 36 - Responsividade para sites	
+
+Aula 37 - Responsividade na prática
+	
+	
+
+
+
+  
+
+
