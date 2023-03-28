@@ -57,23 +57,39 @@ nav > a:hover{
     background-color: #2FA866;
     background-color: #063d1e;
 }
-/*
+
+a:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    color: #3ddc84;
+}
+
 *{
     margin: 0px;
     padding: 0px;
 }
-*/
+
 body{
     background-color: var(--cor0);
+    margin-bottom: 0;
 }
+h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+.img{
+    text-align: center;
+}
+
 main{
     background-color: white;
-    margin-bottom: 30px;
     min-width: 300px;
     max-width: 1000px;
-    margin:auto;
+    margin: 8px auto;
     box-shadow: 3px 1px 15px rgb(0 0 0 / 57%);
     padding: 20px;
+    margin-bottom: 0;
 }
 
 main > div.video{
@@ -138,11 +154,11 @@ aside ul{
     columns: 2;
 }
 footer{
-    background-color: #036830;
-    color: white;
+    font-weight: bolder;
+    color: #094926;
     text-align: center;
     font-size: 0.8em;
-    padding: 5px;
+    padding: 8px;
     min-width: 600px;
     max-width: 1000px;
     margin: auto;
@@ -170,4 +186,19 @@ div.video > iframe{
     left: 5%;
     width: 90% ;
     height: 90% ;
+}
+
+.rodape{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.eu{
+    color: black;
+}
+
+.eu:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    color: #063d1e;
 }

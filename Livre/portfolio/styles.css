@@ -42,14 +42,15 @@ li {
     cursor: pointer;
 }
 
-li:hover {
-    color: #f9004d;
-    transition: 0.5s;
-}
-
 .link-menu {
     text-decoration: none;
     color: white;
+}
+
+.link-menu:hover{
+    opacity: 0.7;;
+    color: #f9004d;
+    transition: 0.5s;
 }
 
 .meu-nome {
